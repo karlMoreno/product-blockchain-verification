@@ -27,7 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 700px;
+    margin-bottom: 600px;
 }
 .top-bar div{
     display: flex;
