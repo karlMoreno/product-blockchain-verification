@@ -42,7 +42,7 @@ img {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 .show {
@@ -57,7 +57,7 @@ img {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: center;
+    text-align: left;
     outline: none;
     font-size: 16px;
     font-weight: 600;
@@ -74,15 +74,15 @@ img {
     font-weight: bold;
     float: right;
     margin-left: 5px;
-    opacity: 1;
+ 
   }
   
   .active:after {
     content: "\2212";
-    opacity: 1;
   }
   
   .panel {
+    width: 100%;
     padding: 0 18px;
     background-color: black;
     max-height: 0;
