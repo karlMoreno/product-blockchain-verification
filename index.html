@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Product Blockchain Verification</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="app.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="top-bar">
-            <img src="images/back.png" alt="back" class="arrow-img"> 
-            <div>
-                <img src="images/heart.png" alt="heart" class="heart-img">
-                <img src="images/dot.png" alt="dot" class="dot-img">
-    
-            </div>
+    <section class="hidden">
+        <h1>Welcome to the NFT Product Verifier</h1>
+        <br>
+        <div class="imageContainer">
+            <span>
+                <img src="./imgs/NFT_img.jpg" alt="Lavender Lemon Lotion">
+            </span>
         </div>
-        <h1>
-            Misfits & Co.    
-        </h1>
-        <h1>Lavender Lemon Lotion</h1>
-        <div class="review">
-            <img src="images/star.png" alt="star">
-            <p>4.5k people have viewed this product's history</p>
-        </div>
-        <img src="images/IMG_6713.jpg" alt="Lotion" class="product-img">
-
-        <h3>
+        <br>
+        <p>
             Welcome! You have just scanned a QR code 
             that has taken you to the unique NFT of this product.
-            <br>
-            <br>
+        </p>
+    </section>
+    <br>
+    <br>
+    <section class="hidden">
+        <h1>This Product's Supply Chain</h1>
+        <br>
+        <p>
             There are a few things you can see about this product!
             Below are the Companies that we worked with to bring you
             the very product holding in your hand!
-            <br>
-            <button class="accordion">Man Must Wak (Tap me!)</button>
+        </p>
+    </section >
+    <br>
+
+
+    <section>
+        <button class="accordion">Man Must Wak (Tap me!)</button>
             <div class="panel">
                 <p>Wallet Address</p>
                 <ul>
@@ -55,7 +57,7 @@
                         for authentic African and Caribbean produce and spices. 
                     </li>
                     <li>
-                        <a href="https://manmustwak.net/">Visit them Today!</a>
+                        <a href="https://manmustwak.net/"target="_blank">Visit them Today!</a>
                     </li>
                 </ul>
                 <p>Ingredients they contributed</p>
@@ -91,7 +93,7 @@
                         to retire. 
                     </li>
                     <li>
-                        <a href="https://scarletsage.com/">Visit them Today!</a>
+                        <a href="https://scarletsage.com/" target="_blank">Visit them Today!</a>
                     </li>
                 </ul>
                 <p>Ingredients they contributed</p>
@@ -121,7 +123,7 @@
                         in its neighborhood.
                     </li>
                     <li>
-                        <a href="https://scarletsage.com/">Visit them Today!</a>
+                        <a href="https://scarletsage.com/" target="_blank">Visit them Today!</a>
                     </li>
                 </ul>
                 <p>Ingredients they contributed</p>
@@ -141,45 +143,26 @@
             <br>
             <br>
         </h3>
-
-        <h3>
-            You can visit the actual NFT below it will take you to the Third-party Etherscan
-            and you can verify that we did business with the Wallets of these parties.
-            <br>
-            <h3>
-                <a href="https://goerli.etherscan.io/address/0x2478a0E1075A4974219C06b9F228a7a3a771429D#code">
-                    Token contract address: 0x3C353dc27C34F7cf224c6359e20495849Bd492b0
+    </section>
+    <section>
+        <h1>
+            Tap the icon to access the Smart Contract which made the NFT or the Metadata that is in it!
+        </h1>
+        <div class="Logos">
+            <div class="logo hidden">
+                <a href="https://goerli.etherscan.io/address/0x2478a0E1075A4974219C06b9F228a7a3a771429D#code" target="_blank">
+                    <img src="https://api.dicebear.com/5.3/bottts/svg" alt="NFT">
                 </a>
-            </h3>
-        </h3>
-        <h3>
-            <br>
-            If you would like to investigate the Metadata of the actual NFT and what is posted
-            on the blockchain for all to see we have provided the unique Token URI for this 
-            NFT and you can look at the JSON of the product.
+            </div>
             <br>
             <br>
-
-            <a href="ipfs://QmcG81S2a5Ma4jYeoiRynpcLrjkree4bSCNvjn6sCuX3Xo">
-                NFT Metadata
-            </a>
             <br>
-            <br>
-            Here is also the Token URI of the NFT so you can see the image it is attatched to:
-            <br>
-            <a href="ipfs://QmNh98NXLL5EXV9UFoPGskT4LHQhJ1e3Z9rp5gF5ZLvVjk">Image Token URI</a>
-            <br>
-            Here are also direct IPFS links from the NFT's metadata to pictures of our receipts
-            <br>
-            <a href="ipfs://QmNb9EZ8a9ue1oS4YkX3S2mamYbCcELPtkdQcyFwExkRuB">Man Must Wak Receipt</a>
-            <br>
-            <a href="ipfs://Qmeuf69mJAvZQVgqYun8UyzBoCTZ5Y7wbc9GDaM2BXvFwK">The Scarlet Sage Herb Co. Check Out Cart</a>
-            <br>
-            <a href="ipfs://QmPz1KdsMHxDM855zRBL7ae1mvuEzxT36hmCAMCLGKBbGE">Duc Loi Supermarket Receipt</a>
-        </h3>
-        
-    </div>
+            <div class="logo hidden">
+                <a href="ipfs://QmcG81S2a5Ma4jYeoiRynpcLrjkree4bSCNvjn6sCuX3Xo" target="_blank">
+                    <h1>NFT METADATA</h1>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
-<script src="index.js"></script>
-
 </html>
